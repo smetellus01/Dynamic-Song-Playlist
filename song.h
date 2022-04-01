@@ -42,21 +42,6 @@ private:
   int size;		// file size, stored in kilobytes
 };
 
-/* operator<< function
-
-The operator<< overload should print out a Song object on one line (to 
-the given ostream) -- use no more than 80 characters per line -- as 
-follows, in an organized manner. Size should be printed in Megabytes 
-(use 1000 kilobytes = 1 MB for this calculation), to 1 decimal place.  
-The category abbreviations used should be: Pop, Rock, Alt, Ctry, HH, Par
-
-Title		                   Artist	       Style   Size (MB)
-
-Examples:
-Pictures of You                    The Cure            Alt       4.4
-Bohemian Rhapsody                  Queen               Rock      5.7
-What Does the Fox Say              Ylvis               Par      12.6
-
-*/ 
+/* operator<< function */ 
 
 #endif
